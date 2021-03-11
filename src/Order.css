@@ -1,0 +1,16 @@
+.order {
+  padding: 4%;
+  margin: 2% 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.order > CheckoutProduct > button {
+  display: none;
+}
+.order_id {
+  position: absolute;
+  top: 4%;
+  right: 2%;
+}
